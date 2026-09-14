@@ -1,0 +1,85 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Machine Learning Models
+# =========================
+*.joblib
+*.pkl
+*.pickle
+
+# =========================
+# Node / React Native
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# Expo
+# =========================
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# =========================
+# Native builds
+# =========================
+android/.gradle/
+android/build/
+android/app/build/
+ios/Pods/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / Temporary
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Credentials
+# =========================
+google-services.json
+GoogleService-Info.plist
+*.pem
+*.key
+
+# =========================
+# Project backup files
+# =========================
+*.zip
+# AI / development assistant files
+mobile_app/.claude/
+mobile_app/AGENTS.md
+mobile_app/CLAUDE.md
